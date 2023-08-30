@@ -5,11 +5,11 @@ font-family: 'Play', sans-serif;
 font-family: 'Cormorant Garamond', serif;
 }
 
-.header {
-    max-width: fit-content;
+.center-header {
+    max-width:max-content;
     background-color: bisque;
     height: 100px;
-    
+
 
 }
 
