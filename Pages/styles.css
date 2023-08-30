@@ -1,20 +1,39 @@
 body {
-
 font-family: 'Inter', sans-serif;
 font-family: 'Play', sans-serif;
 font-family: 'Cormorant Garamond', serif;
+background-color: black;
 }
 
-.center-header {
-    max-width:max-content;
-    background-color: bisque;
-    height: 100px;
+h1, h2, h3, h4 {
+    color: antiquewhite;
+}
+
+.HeaderCenter {
+    background-color: #A56E3A;
+    display: grid;
+    grid-template-rows: 10;
 
 
 }
 
-.safetybrown {
+.SafetyBrown {
     height: 20px;
-    
-    background-color: brown;
+    background-color: #664229;
+}
+
+.HeaderLogo {
+    padding: 8px;
+    margin: 0 auto;
+    grid-row: 1 /3 ;
+
+}
+
+.NavigationBar {
+    font-family: 'Inter', sans-serif;
+}
+
+.IntroDino {
+    height: auto;
+    max-width: 100%;
 }
