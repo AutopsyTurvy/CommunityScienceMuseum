@@ -11,8 +11,9 @@ color: antiquewhite;
 
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: antiquewhite;
+    text-align: center;
 }
 
 
@@ -95,22 +96,38 @@ Main Page- Body Of The page
     padding: 50px 80px;
 }
 
-.TextSection1 {
+
+/* --------------------------------
+Main Page- Body Of The page
+-----------------------------------*/
+
+
+.PlanYourVisitSection {
     background-color: #563822;
+    list-style: none;
+    
+    
 }
+
 
 .TextSection2 {
     background-color: #4B3934;
 }
 
+
+.InfoList {
+    text-align: center;
+}
+
 .InnerText {
     position: absolute;
+    text-align: center;
     top: 50%;
     width: 100%;
-    text-align: center;
-    color: antiquewhite;
+    color: #A56E3A;
     font-size: 27px;
     letter-spacing: 8px;
+
 }
 
 .MiniHeaderText {
@@ -123,7 +140,7 @@ Main Page- Body Of The page
 }
 
 .boarder {
-    background-color: white;
+    background-color: #E5D3B3;
     color: #664229;
     padding: 20px;
     font-weight: bold;
@@ -164,4 +181,16 @@ First Image, Main Page
     color:#4B3934;
     
      
+}
+
+
+
+
+
+
+
+
+.SafetyBrown-light {
+    height: 10px;
+    background-color: #A56E3A;
 }
