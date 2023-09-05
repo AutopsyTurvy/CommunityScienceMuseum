@@ -13,8 +13,6 @@ color: antiquewhite;
 
 h2, h3 {
     color: antiquewhite;
-    text-align: center;
-    font-size: 25px;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -51,10 +49,14 @@ Header
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     grid-row: 2/3;
     grid-column: 3/5;
-    margin: 0;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-left: 0;
+    
+
 }
 
 .NavigationBar {
@@ -98,6 +100,11 @@ Main Page- Body Of The page
     min-height: 400px;
 }
 
+.CreepyCrawly {
+    background-image: url('../Images/CreepyAndCrawly.jpg');
+    min-height: 400px;
+}
+
 .TextSection1, .TextSection2 {
     text-align: center;
     padding: 50px 80px;
@@ -120,15 +127,28 @@ Main Page- Body Of The page
 }
 
 
+.PlanHeading {
+
+    text-align: center;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .PlanYourVisit a {
     color: #ffff;
     text-decoration: none;
     border: 1px solid #E5D3B3;
     padding: 3px;
-    text-align: center;
-    clear: left;
-    float: left;
     margin: 10px;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -140,9 +160,10 @@ Main Page- Body Of The page
 
 }
 
-.WhenAreWeOpen {
+.WhenAreWeOpen ul{
     color: #ffff;
     text-decoration: none;
+    list-style: none;
 
 }
 
@@ -158,6 +179,8 @@ Main Page- Body Of The page
 
 .TicketIcon {
     size: 15px 15px;
+    display: inline;
+    color: antiquewhite;
 
 }
 
@@ -197,7 +220,7 @@ Main Page- Body Of The page
     color: #664229;
     padding: 20px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .TextSection2 {
