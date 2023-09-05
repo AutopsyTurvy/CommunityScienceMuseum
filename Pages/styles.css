@@ -14,6 +14,13 @@ color: antiquewhite;
 h2, h3 {
     color: antiquewhite;
     text-align: center;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+
 }
 
 
@@ -105,13 +112,59 @@ Main Page- Body Of The page
 .PlanYourVisitSection {
     background-color: #563822;
     list-style: none;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
     
     
 }
 
 
-.TextSection2 {
-    background-color: #4B3934;
+.PlanYourVisit a {
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #E5D3B3;
+    padding: 3px;
+    text-align: center;
+    clear: left;
+    float: left;
+    margin: 10px;
+
+}
+
+.PlanYourVisit a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+
+
+}
+
+.WhenAreWeOpen {
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+.TicketAlign {
+    display: flex;
+
+}
+
+.ClockAlign {
+    display: flex;
+
+}
+
+.TicketIcon {
+    size: 15px 15px;
+
+}
+
+.ClockIcon {
+    size: 15px 15px;
+
+
 }
 
 
@@ -145,6 +198,10 @@ Main Page- Body Of The page
     padding: 20px;
     font-weight: bold;
     font-size: 40px;
+}
+
+.TextSection2 {
+    background-color: #4B3934;
 }
 
 /* --------------------------------
