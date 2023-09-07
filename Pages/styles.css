@@ -11,11 +11,6 @@ color: antiquewhite;
 
 }
 
-h2, h3 {
-    color: antiquewhite;
-    font-family: 'Cormorant Garamond', serif;
-}
-
 a {
     font-family: 'Inter', sans-serif;
 
@@ -32,6 +27,11 @@ Header
 .SafetyBrown {
     height: 10px;
     background-color: #664229;
+}
+
+.SafetyBrown-light {
+    height: 10px;
+    background-color: #A56E3A;
 }
 
 .HeaderCenter {
@@ -70,11 +70,11 @@ h1 {
     margin-top: 50px;
 }
 
-/* --------------------------------
+/* ----------------------------------------------------------------
 Main Page- Body Of The page
------------------------------------*/
+-------------------------------------------------------------------*/
 
-.image1, .image2 {
+.image1, .image2, .image3 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -110,89 +110,8 @@ Main Page- Body Of The page
     padding: 50px 80px;
 }
 
-
-/* --------------------------------
-Main Page- Body Of The page
------------------------------------*/
-
-
-.PlanYourVisitSection {
-    background-color: #563822;
-    list-style: none;
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 1;
-    
-    
-}
-
-
-.PlanHeading {
-
-    text-align: center;
-    display: flex;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.PlanYourVisit a {
-    color: #ffff;
-    text-decoration: none;
-    border: 1px solid #E5D3B3;
-    padding: 3px;
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.PlanYourVisit a:hover {
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
-
-
-}
-
-.WhenAreWeOpen ul{
-    color: #ffff;
-    text-decoration: none;
-    list-style: none;
-
-}
-
-.TicketAlign {
-    display: flex;
-
-}
-
-.ClockAlign {
-    display: flex;
-
-}
-
-.TicketIcon {
-    size: 15px 15px;
-    display: inline;
-    color: antiquewhite;
-
-}
-
-.ClockIcon {
-    size: 15px 15px;
-
-
-}
-
-
-.InfoList {
-    text-align: center;
+.TextSection2 {
+    background-color: #4B3934;
 }
 
 .InnerText {
@@ -203,7 +122,6 @@ Main Page- Body Of The page
     color: #A56E3A;
     font-size: 27px;
     letter-spacing: 8px;
-
 }
 
 .MiniHeaderText {
@@ -223,22 +141,110 @@ Main Page- Body Of The page
     font-size: 60px;
 }
 
-.TextSection2 {
-    background-color: #4B3934;
+
+
+/* ----------------------------------------------------------------
+Main Page- Body Of The page
+-------------------------------------------------------------------*/
+
+
+.PlanYourVisitSection {
+    background-color: #563822;
+    list-style: none;   
+    row-gap: 30px;  
 }
 
+.VisitFlexContainer {
+    display: flex;
+    align-content: space-around;
+}
+
+
+.PlanHeading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 4em;
+    font-weight: bold;
+}
+
+.PlanYourVisit {
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.WhenAreWeOpen {
+    width: 50%;
+}
+
+.PlanYourVisit a, .FullOpeningHours {
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #E5D3B3;
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.PlanYourVisit a:hover, .FullOpeningHours:hover {
+    color:#4B3934; 
+    background-color: #E5D3B3;
+    font-weight: bold;
+    text-decoration:none; 
+    cursor:pointer; 
+    padding: 3px;
+    margin: 10px; 
+}
+
+.WhenHeading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 4em;
+}
+
+
+.WhenAreWeOpen ul{
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+}
+
+.fa-ticket, .fa-clock {
+    margin: 16px;
+}
+
+.FreeAdmisson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.ClockIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
 /* --------------------------------
-First Image, Main Page
+card trio
 -----------------------------------*/
 
 .ExploreCardContainer {
     display: flex;
-
-}
-
-.ContainerBackdrop {
-    
-    color: #664229;
 
 }
 
@@ -270,7 +276,3 @@ First Image, Main Page
 
 
 
-.SafetyBrown-light {
-    height: 10px;
-    background-color: #A56E3A;
-}
