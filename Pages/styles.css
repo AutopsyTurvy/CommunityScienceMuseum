@@ -3,8 +3,6 @@ Main Body
 -----------------------------------*/
 
 body {
-font-family: 'Inter', sans-serif;
-font-family: 'Cormorant Garamond', serif;
 background-color: black;
 margin: 0;
 color: antiquewhite;
@@ -76,7 +74,6 @@ Main Page- Body Of The page
 
 .image1, .image2, .image3 {
     position: relative;
-    opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,26 +89,22 @@ Main Page- Body Of The page
 
 .IntroDino {
     background-image: url("../Images/IntroDino.jpg");
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .MeetOurDinos {
     background-image: url('../Images/MeetOurDinosaurs.jpg');
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .CreepyCrawly {
     background-image: url('../Images/CreepyAndCrawly.jpg');
-    min-height: 400px;
+    min-height: 500px;
 }
 
-.TextSection1, .TextSection2 {
+.TextSection1, .ExploreCardTitle {
     text-align: center;
     padding: 50px 80px;
-}
-
-.TextSection2 {
-    background-color: #4B3934;
 }
 
 .InnerText {
@@ -122,22 +115,27 @@ Main Page- Body Of The page
     color: #A56E3A;
     font-size: 27px;
     letter-spacing: 8px;
+
 }
 
 .MiniHeaderText {
     position: relative;
     top: 70%;
-    width: 100%;
+    width: auto;
+    display:inline-block;
     color: #664229;
     font-size: 20px;
     letter-spacing: 4px;
+    background-color: #E5D3B3;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .boarder {
     background-color: #E5D3B3;
     color: #664229;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 60px;
 }
 
@@ -147,11 +145,22 @@ Main Page- Body Of The page
 Main Page- Body Of The page
 -------------------------------------------------------------------*/
 
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+
+}
 
 .PlanYourVisitSection {
     background-color: #563822;
     list-style: none;   
     row-gap: 30px;  
+    padding: 20px;
 }
 
 .VisitFlexContainer {
@@ -165,8 +174,7 @@ Main Page- Body Of The page
     display: flex;
     justify-content: center;
     align-items: center;
-    size: 4em;
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .PlanYourVisit {
@@ -207,7 +215,7 @@ Main Page- Body Of The page
     display: flex;
     justify-content: center;
     align-items: center;
-    size: 4em;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -239,40 +247,114 @@ Main Page- Body Of The page
 
 
 
-/* --------------------------------
-card trio
------------------------------------*/
+/* ------------------------------------------------------------------------------------------------
+Explore cards
+---------------------------------------------------------------------------------------------------*/
 
-.ExploreCardContainer {
+.ExploreCardTitle {
+    text-align: center;
+    padding: 60px;
+    background-color: #4B3934;
+  }
+
+  
+  .ExploreCardContainer {
     display: flex;
-
-}
-
-
-.ExploreImage {
-    width: 395px;
-    height: 170px; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .ExploreCard {
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 5px;
+    width: 30%;
+  }
+  
+  .ExploreImage {
+    width: 100%;
+    height: 250px;
     object-fit: cover;
-}
-
-.TextSection2 .ExploreCardContainer .ExploreCard .ExploreImage3 {
-    width: 395px;
-    height: 170px; 
-    object-fit: cover;
-}
-
-.ExploreCard {
+  }
+  
+  .ContainerBackdrop {
+    margin-top: 10px;
+    color: #664229;
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .ExploreCardContainer {
+    display: flex;
+  }
+  
+   h4 {
+    color: #664229;
+  }
+  
+  .ExploreCard {
     margin: 2px 16px;
     background-color: antiquewhite;
-    color:#4B3934;
-    
-     
+    color: #4B3934;
+  }
+
+
+
+/* ------------------------------------------------------------------------------------------------
+Explore cards 2- There's so much to see
+---------------------------------------------------------------------------------------------------*/
+
+.SoMuchToSee {
+    background-image: url("../Images/lab-512503_1920.jpg");
+    height: 590px;
+    padding: 60px;
+    padding-bottom: 0;
+}
+
+.SoMuchToSeeHeading {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #4B3934;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.SeeParagraph {
+    padding: 15px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ------------------------------------------------------------------------------------------------
+Footers-- footer 1
+---------------------------------------------------------------------------------------------------*/
+
+
+.TopFooter {
+    background-color: #906E4E;
+    font-family: 'Inter', sans-serif;
 }
 
 
 
 
+.FooterIcons {
+    font-size: 30px;
+    display: flex;
+}
 
+.ContactNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
 
-
-
+.MediaIcon {
+    margin: 0px 10px 0px 10px;
+}
