@@ -164,9 +164,35 @@ Main Page- Body Of The page
 
     background-image: url('../Images/firetunnel.jpg');
     min-height: 600px;
-
-
 }
+
+.EyeToTheMicroscipe {
+    background-image: url('../Images/Scientist.jpg');
+    min-height: 600px;
+}
+
+.Volunteer {
+    background-image: url('../Images/WhiteRoomTrex.jpg');
+    min-height: 600px;
+}
+
+.Internships {
+    background-image: url('../Images/Internships.jpg');
+    min-height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .TextSection1, .ExploreCardTitle {
     text-align: center;
@@ -754,10 +780,49 @@ to the initial pages both in colour scheme and layout- there will be minimal sty
 }
 
 
+/* ------------------------------------------------------------------------------------------------
+Page 4- 
+---------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------
+Get Involved--
+---------------------------------------------------------------------------------------------------*/
 
+.Image-Section-Treasure {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-image: url('../Images/Treasure.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.Image-Overlay-Treasure {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 30%; 
+    height: 50%;
+    justify-content: center;
+    background-color: #CCAC93; 
+    color: #4B3934; 
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+}
 
+.Image-Overlay-Treasure p {
+    margin: 0;
+    font-family: 'Inter', sans-serif; 
+    font-size: 1.2em;
+}
 
-
-
+.VolunteerHeader h3{
+    background-color: #EFEFEF;
+    color: #372F2D;
+}
+.VolunteerText {
+    background-color: #EFEFEF;
+    color: #372F2D;
+}
 
