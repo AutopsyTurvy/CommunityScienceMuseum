@@ -625,7 +625,7 @@ Two column section- Biology and Medicine
 
 
 /* ------------------------------------------------------------------------------------------------
-Two column section- Biology and Medicine
+Ecology
 ---------------------------------------------------------------------------------------------------*/
 
 
@@ -633,7 +633,8 @@ Two column section- Biology and Medicine
     text-align: center;
     padding: 60px;
     display: flex;
-    justify-content:center;  
+    justify-content:center; 
+    font-family: 'Inter', sans-serif; 
 }
 
 
@@ -658,18 +659,9 @@ Two column section- Biology and Medicine
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------------------------------------
+Horizontal cards- For Teachers and their Classes
+---------------------------------------------------------------------------------------------------*/
 
 
 .HorizontalCardSection {
@@ -677,18 +669,23 @@ Two column section- Biology and Medicine
     flex-direction: column;
     align-items: center;
     background-color: #906E4E;
+    color: #372F2D;
+    font-size: 30px;
+    padding-bottom: 40px;
 }
+
 
 .HorizontalCard {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 70%;
     margin: 20px;
     overflow: hidden;
+
 }
 
 .HorizontalCardImage {
-    flex: 30%;
+    flex: 50%;
 }
 
 .HorizontalCardImage img {
@@ -701,12 +698,12 @@ Two column section- Biology and Medicine
     font-family: 'Inter', sans-serif;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
     font-size: 20px;
-    flex: 70%;
-    padding: 20px;
+    flex: 50%;
+    padding: 30px;
     background-color: #E5D3B3;
     color: #372F2D;
+    word-spacing: 3px;
 }
 
 .HorizontalCardParagraph p {
