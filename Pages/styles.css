@@ -153,6 +153,18 @@ Main Page- Body Of The page
 .Ecology {
     background-image: url('../Images/OceanPlastic.jpg');
     min-height: 700px;
+}
+
+.NewAndExciting {
+    background-image: url('../Images/PillarsRoom.jpg');
+    min-height: 600px;
+}
+
+.FireTunnel {
+
+    background-image: url('../Images/firetunnel.jpg');
+    min-height: 600px;
+
 
 }
 
@@ -710,6 +722,36 @@ Horizontal cards- For Teachers and their Classes
     margin: 0;
 }
 
+/* ------------------------------------------------------------------------------------------------
+Page 3- 
+---------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------
+Special Events and Exhibitions-- As the styles in these next pages are extremely similar
+to the initial pages both in colour scheme and layout- there will be minimal styling needed.
+---------------------------------------------------------------------------------------------------*/
+
+
+.OurExhibitsCards {
+    background-color: #906E4E;
+}
+
+
+
+.HorizontalCardImageNight {
+    height: 316px;
+    width: 474px;
+    overflow: hidden;
+}
+
+.NightAtTheMuseum {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.WhatsComingNext {
+    background-color: #664229;
+}
 
 
 
