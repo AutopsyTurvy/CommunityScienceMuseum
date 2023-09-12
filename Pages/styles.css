@@ -64,9 +64,21 @@ h1 {
     grid-row: 2/3;
     grid-column: 5/10;
     display: flex;
-    justify-content: space-evenly;
     margin-top: 50px;
 }
+
+.NavigationBar .Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.NavigationBar .Links div {
+    margin-right: 15px;
+}
+
 
 .NavigationBar a{
     text-decoration: none;
@@ -86,6 +98,67 @@ h1 {
 .DropDownIcon:hover {
     color: #4B3934;
     
+}
+
+/* ------------ Hamburger Menu ------------*/
+
+.HamburgerMenu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuIcon {
+    cursor: pointer;
+}
+
+.MenuList {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+
+.MenuList li {
+    margin: 15px 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .NavigationBar .Links {
+        display: none;
+    }
+
+    .NavigationBar .DropDownIcon {
+        display: block;
+        margin-left: auto;
+        padding-right: 25px;
+    }
+
+    .HamburgerMenu {
+        display: flex;
+    }
+
+    /* Hide the checkbox */
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    /* Style the label that acts as the menu button */
+    label.MenuIcon img {
+        width: 30px; /* Adjust the width to match your icon's size */
+        height: auto;
+    }
+
+    /* Style the menu when the checkbox is checked */
+    input[type="checkbox"]:checked + .MenuList {
+        display: block;
+    }
 }
 
 /* ----------------------------------------------------------------
