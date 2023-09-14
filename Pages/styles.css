@@ -693,6 +693,15 @@ Footers-- footer 2
    
 }
 
+@media screen and (max-width: 600px) {
+
+    .FooterLogo {
+        height: 15px;
+        width: 15px;
+    }  
+}
+
+
 
 
 
