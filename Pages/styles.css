@@ -67,6 +67,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     margin-bottom: 8%;
+    justify-content: space-evenly;
 }
 
 .NavigationBar .Links div {
@@ -271,7 +272,31 @@ Main Page- Body Of The page
 
 
 
+.MiniHeaderButton {
+    padding: 10px 20px;
+    background-color: #664229;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    margin: 20px auto; 
+    justify-content: center;
+    text-decoration: none;
+}
 
+.MiniHeaderButton:hover {
+ 
+    background-color: #A56E3A;
+}
+
+
+.ButtonContainer {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto; 
+}
 
 
 
