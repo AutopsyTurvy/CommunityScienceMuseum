@@ -60,7 +60,6 @@
         <div class="InnerText">
             <span class="boarder">
                 So- What Fun Can We Have?
-                <div class="MiniHeaderText">:Let's take a peek!</div>
             </span>
         </div>
     </div>
@@ -92,17 +91,17 @@
       <div class="ContainerBackdrop">
         <p>Discover the Vast 
             expanse of our universe
-            in our <a href="">Cosmology Section!</a></p> 
+            in our <a href="OurExhibits.html#CosmologyLinkSection">Cosmology Section!</a></p> 
       </div>
     </div>
   
     <div class="ExploreCard">
-      <img src="../Images/DrivingAstronaut.jpg" alt="Blood Cells Under a microscope" style="width:100%" class="ExploreImage">
+      <img src="../Images/DrivingAstronaut.jpg" alt="An Astronaut seated in front of equipment" style="width:100%" class="ExploreImage">
       <div class="ContainerBackdrop">
         <p>We have Special Events, 
             classes and talks- keep
             an eye on 
-            <a href="">what we have on!</a></p> 
+            <a href="SpecialEvents.html#CosmologyTalk">what we have on!</a></p> 
       </div>
     </div>
   
@@ -114,7 +113,7 @@
             largest creatures that
             walked the earth before
             us in our
-            <a href="">Evolution Display!</a></p> 
+            <a href="OurExhibits.html#MeetOurDinosSection">Evolution Display!</a></p> 
       </div>
     </div>
   </div>
@@ -158,7 +157,7 @@
 
 <!-- ------------------------------------------- Cosmology scroll ----------------------------------------- -->
 
-
+<section id="CosmologyLinkSection">
 <div class="NightSky image1">
             <div class="NightSkyContainer">
                 <div class="NightSkyParagraph">
@@ -177,7 +176,7 @@
                 </div>
             </div>
             </div>
-
+        </section>
 
 <!-- ------------------------------------------- AI and Virtual Reality Scroll ----------------------------------------- -->
 
@@ -197,7 +196,7 @@
 
                 <!-- ------------------------------------------- Evolution ----------------------------------------- -->
 
-
+<section id="MeetOurDinosSection">
                 <section class="TwoColumnSection">
                     <div class="LeftHalf">
                         <p>
@@ -214,9 +213,10 @@
                         <img src="" alt="">
                     </div>
                 </section>
+            </section>
         
         <!-- ------------------------------------------- Biology and Medicine ----------------------------------------- -->
-        
+        <section id="BiologyLinkSection">
                 <section class="two-column-section">
                     <div class="left-half">
                         <img src="" alt="">
@@ -237,9 +237,10 @@
                         </p>
                     </div>
                 </section>
+            </section>
 
 <!-- ------------------------------------------- Ecology ----------------------------------------- -->
-
+<section id="EcologyLinkSection">
 
         <div class="Ecology image1">
             <div class="ScrollParagraphContainer">
@@ -257,12 +258,12 @@
                 </div>
             </div>
             </div>
-        
+        </section>
+    </section>
 
       <!-- ------------------------------------------- Double Card Section ----------------------------------------- -->
 
-
-
+<section id="ForTeachersSection">
           <section class="HorizontalCardSection">
             <h3>For Our Teachers And Their Classes!</h3>
 
@@ -303,6 +304,8 @@
 
             </div>
         </section>
+    </section>
+</section>
 
 
         <section class="SafetyBrown"></section>
@@ -344,7 +347,17 @@
             <div class="PlanYourVisit">
                 <h2 class="PlanHeading">Community Science Museum</h2>
 
-                   <p>Support us: </p> <a href="url">Donate</a>
+                <p>Support us: <a href="#donatePopup">Donate</a></p>
+
+                <div id="donatePopup" class="popup">
+                  <div class="popup-content">
+                    <span class="close"><a href="#">Close</a></span>
+                    <h2>Donate to the Museum</h2>
+                    <p>Enter the amount you'd like to donate:</p>
+                    <input type="text" placeholder="Enter amount:">
+                    <a href="#" class="donate-button">Donate</a>
+                  </div>
+                </div>
             </div>
 
 

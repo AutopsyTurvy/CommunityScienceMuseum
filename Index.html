@@ -107,7 +107,7 @@
           </span></br><div class="MiniHeaderText">Take a walk with some of the World's Oldest and Largest creatures!</div>
           
           <div class="MiniButtonContainer">
-            <a href="/your-page.html" class="MiniHeaderButton">Explore Together!</a>
+            <a href="Pages/OurExhibits.html#MeetOurDinosSection" class="MiniHeaderButton">Take a Look!</a>
         </div>
 
 
@@ -127,14 +127,14 @@
   <div class="ExploreCard">
     <img src="Images/ForKids.jpg" alt="Little Girl looking at a chalk board" style="width:100%" class="ExploreImage">
     <div class="ContainerBackdrop">
-      <h4>For Kids</h4> 
+      <a href="Pages/OurExhibits.html#ForTeachersSection"><h4>For Kids</h4></a>
     </div>
   </div>
 
   <div class="ExploreCard">
     <img src="Images/MicroscopePeek.jpg" alt="Blood Cells Under a microscope" style="width:100%" class="ExploreImage">
     <div class="ContainerBackdrop">
-      <h4>For Researchers</h4> 
+      <a href="Pages/GetInvolved.html#ForResearchersSection"><h4>For Researchers</h4></a>
     </div>
   </div>
 
@@ -142,7 +142,7 @@
   <div class="ExploreCard">
     <img src="Images/ForTeachers.jpg" alt="Lobby of a Library" style="width:100%" class="ExploreImage">
     <div class="ContainerBackdrop">
-      <h4>For Teachers</h4> 
+      <a href="Pages/OurExhibits.html#ForTeachersSection"><h4>For Teachers</h4></a>
     </div>
   </div>
 </div>
@@ -159,9 +159,9 @@
           Creepy and Crawly!
         </span></br><div class="MiniHeaderText">Creatures great and small in our Ecology Exhibition!</div>
 
-<div class="ButtonContainer">
-            <a href="/Pages/OurExhibits.html#CreepyCrawlyLink" class="MiniHeaderButton">Let's See!</a>
-        </div>
+        <div class="MiniButtonContainer">
+          <a href="Pages/OurExhibits.html#EcologyLinkSection" class="MiniHeaderButton">Let's See!</a>
+      </div>
 
       </span>
   </div>
@@ -180,7 +180,7 @@
     <div class="ExploreCard">
       <img src="Images/BottledSnakes.jpg" alt="Snakes Preserved in jars of formaldehyde" style="width:100%" class="ExploreImage">
       <div class="ContainerBackdrop">
-        <p class="SeeParagraph">Take a look at our <a href="">Ecology Section</a>. We have all kinds of creatures from the Natural world for you to discover.</p> 
+        <p class="SeeParagraph">Take a look at our <a href="Pages/OurExhibits.html#EcologyLinkSection">Ecology Section</a>. We have all kinds of creatures from the Natural world for you to discover.</p> 
       </div>
     </div>
   
@@ -188,7 +188,7 @@
     <div class="ExploreCard">
       <img src="Images/ModelHeart.jpg" alt="Anatomical Heart Models" style="width:100%" class="ExploreImage">
       <div class="ContainerBackdrop">
-        <p class="SeeParagraph">How do we work? Learn all about the amazing workings of the human body in our <a href="">Biology Section</a>!</p> 
+        <p class="SeeParagraph">How do we work? Learn all about the amazing workings of the human body in our <a href="Pages/OurExhibits.html#BiologyLinkSection">Biology Section</a>!</p> 
       </div>
     </div>
   
@@ -197,7 +197,7 @@
     <div class="ExploreCard">
       <img src="Images/GoldAstronaut.jpg" alt="Astronaut suit and helmet" style="width:100%" class="ExploreImage">
       <div class="ContainerBackdrop">
-        <p class="SeeParagraph">Explore the stars and wonder at the vastness of our universe in our newly updated <a href="">Cosmology Exhibit</a>!</p> 
+        <p class="SeeParagraph">Explore the stars and wonder at the vastness of our universe in our newly updated <a href="Pages/OurExhibits.html#CosmologyLinkSection">Cosmology Exhibit</a>!</p> 
       </div>
     </div>
 
@@ -246,7 +246,19 @@
             <div class="PlanYourVisit">
                 <h2 class="PlanHeading">Community Science Museum</h2>
 
-                   <p>Support us: </p> <a href="url">Donate</a>
+
+                   <p>Support us: <a href="#donatePopup">Donate</a></p>
+
+                   <div id="donatePopup" class="popup">
+                     <div class="popup-content">
+                       <span class="close"><a href="#">Close</a></span>
+                       <h2>Donate to the Museum</h2>
+                       <p>Enter the amount you'd like to donate:</p>
+                       <input type="text" placeholder="Enter amount:">
+                       <a href="#" class="donate-button">Donate</a>
+                     </div>
+                   </div>
+                   
             </div>
 
 
