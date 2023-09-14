@@ -273,6 +273,17 @@ Main Page- Body Of The page
 
 
 
+.parallax-image {
+    min-height: 600px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
