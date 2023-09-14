@@ -640,6 +640,13 @@ Footers-- footer 1
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    .TopFooter {
+        font-size: 12px; 
+    }
+}
+
 
 /* ------------------------------------------------------------------------------------------------
 Footers-- footer 2
@@ -662,7 +669,24 @@ Footers-- footer 2
 }
 
 
+@media screen and (max-width: 768px) {
 
+    .FooterIcons {
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .ContactNumber {
+        font-size: 10px;
+    }
+    
+    .MediaIcon {
+        margin: 0px 6px 0px 6px;
+    }
+    
+
+   
+}
 
 
 
