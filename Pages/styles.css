@@ -221,7 +221,7 @@ Main Page- Body Of The page
 }
 
 .Ecology {
-    background-image: url('../Images/OceanPlastic.jpg');
+    background-image: url('../Images/ecology-bees.jpg');
     min-height: 700px;
 }
 
@@ -284,6 +284,7 @@ Main Page- Body Of The page
     margin: 20px auto; 
     justify-content: center;
     text-decoration: none;
+    border: 2px solid #E5D3B3;
 }
 
 .MiniHeaderButton:hover {
@@ -292,7 +293,7 @@ Main Page- Body Of The page
 }
 
 
-.ButtonContainer {
+.MiniButtonContainer {
     text-align: center;
     width: 20%;
     margin: 0 auto; 
