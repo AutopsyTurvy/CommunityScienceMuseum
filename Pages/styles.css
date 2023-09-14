@@ -274,6 +274,19 @@ Main Page- Body Of The page
 
 
 
+
+@media screen and (max-width: 768px) {
+
+    .IntroDino, .MeetOurDinos, .CreepyCrawly, .Cafe, .GuidedTours, .OuterMuseum, .Internships,
+     .Volunteer, .EyeToTheMicroscipe, .FireTunnel, .NewAndExciting, .Ecology, .Biology,
+      .Evolution, .VirtualReality, .NightSky, .WhatFunCanWeHave, .CreepyCrawly, .MeetOurDinos, .IntroDino {
+      background-size: cover;
+    }
+  }
+
+
+
+
 .MiniHeaderButton {
     padding: 10px 20px;
     background-color: #664229;
