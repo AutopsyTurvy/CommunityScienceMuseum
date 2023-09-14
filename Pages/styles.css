@@ -1027,7 +1027,7 @@ Horizontal cards- For Teachers and their Classes
     flex-direction: column;
     align-items: center;
     background-color: #906E4E;
-    color: #372F2D;
+    color: antiquewhite;
     font-size: 30px;
     padding-bottom: 40px;
 }
@@ -1210,6 +1210,24 @@ Visit
     width: 40%;
     min-height: 430px;
   }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .ExploreCardContainer-FindUs {
+        padding: 20px;
+    }
+
+    .ExploreCard-FindUs {
+        width: 100%;
+    }
+}
+
+
+
+
 
 
   .GuidedToursStyling p {
