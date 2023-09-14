@@ -696,8 +696,10 @@ Footers-- footer 2
 @media screen and (max-width: 600px) {
 
     .FooterLogo {
-        height: 15px;
-        width: 15px;
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
     }  
 }
 
