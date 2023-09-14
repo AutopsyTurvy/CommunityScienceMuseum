@@ -581,7 +581,7 @@ Explore cards
         margin: 10px; 
     }
 
-    .PlanHeading {
+    .PlanHeading, .WhenHeading {
        font-size: 20px;
     }
 
