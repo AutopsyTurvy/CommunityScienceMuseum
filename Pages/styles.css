@@ -368,6 +368,7 @@ Main Page- Body Of The page
     font-weight: 600;
     font-size:2.4em;
     font-family: Garamond;
+    font-size: 20%;
 }
 
 
@@ -687,10 +688,7 @@ Footers-- footer 2
     
     .MediaIcon {
         margin: 0px 6px 0px 6px;
-    }
-    
-
-   
+    } 
 }
 
 @media screen and (max-width: 600px) {
