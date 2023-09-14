@@ -40,7 +40,7 @@ Header
     margin: 0 auto;
     grid-row: 2/3;
     grid-column: 1/3;
-    color: #E5D3B3;
+    color: antiquewhite;
 }
 
 h1 {
@@ -54,7 +54,7 @@ h1 {
 
 .NavigationBar {
     font-family: 'Inter', sans-serif;
-    color: #E5D3B3;
+    color: antiquewhite;
     font-size: 20px;
     grid-row: 2/3;
     grid-column: 5/10;
@@ -78,7 +78,7 @@ h1 {
 
 .NavigationBar a{
     text-decoration: none;
-    color: #E5D3B3;
+    color: antiquewhite;
 }
 
 .NavigationBar a:hover{
@@ -122,7 +122,7 @@ h1 {
 
     .Button:hover {
         color:#4B3934; 
-        background-color: #E5D3B3;
+        background-color: antiquewhite;
         font-weight: bold;
         text-decoration:none; 
         cursor:pointer;
@@ -301,7 +301,7 @@ Main Page- Body Of The page
 .MiniHeaderButton {
     padding: 10px 20px;
     background-color: #664229;
-    color: #E5D3B3;
+    color: antiquewhite;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -356,7 +356,7 @@ Main Page- Body Of The page
     color: #664229;
     font-size: 0.8em;
     letter-spacing: 0.2em;
-    background-color: #E5D3B3;
+    background-color: antiquewhite;
     padding: 0.3em 0.5em;
     font-family: 'Inter', sans-serif;
 }
@@ -442,7 +442,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    color: #E5D3B3;
+    color: antiquewhite;
 }
 
 .PlanYourVisit {
@@ -456,7 +456,7 @@ h2 {
 }
 
 .PlanYourVisit a, .FullOpeningHours {
-    color: #E5D3B3;
+    color: antiquewhite;
     text-decoration: none;
     border: 1px solid #E5D3B3;
     padding: 3px;
@@ -488,7 +488,7 @@ h2 {
 
 
 .WhenAreWeOpen ul{
-    color: #E5D3B3;
+    color: antiquewhite;
     text-decoration: none;
     list-style: none;
     margin-left: 0;
@@ -780,7 +780,7 @@ Our Exhibits
 }
 
 .WeLoveParagraph {
-    color: #E5D3B3;
+    color: antiquewhite;
     text-align: center;
     margin: 0 auto;
     width: 80%;
@@ -896,7 +896,7 @@ two column section- Evolution
     flex: 20%;
     background-color: #664229;
     color: #E5D3B3; 
-    padding: 20px;
+    padding: 25px;
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 0.8em;
@@ -907,7 +907,7 @@ two column section- Evolution
 }
 
 .RightHalf{
-    flex: 80%;
+    flex: 75%;
     height: 500px;
     background-image: url('../Images/MammothSkull.jpg');
     background-size: cover;
@@ -928,7 +928,7 @@ Two column section- Biology and Medicine
 }
 
 .left-half {
-    flex: 80%;
+    flex: 75%;
     height: 500px;
     background-image: url('../Images/eyeball.jpg');
     background-size: cover;
@@ -938,7 +938,7 @@ Two column section- Biology and Medicine
 }
 
 .right-half {
-    flex: 20%;
+    flex: 25%;
     font-family: 'Inter', sans-serif;
     word-spacing: 3px;
     color: #4B3934;
