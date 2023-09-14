@@ -630,6 +630,14 @@ Footers-- footer 1
 .TopFooter {
     background-color: #906E4E;
     font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .TopFooter {
+        font-size: 14px; 
+    }
 }
 
 
