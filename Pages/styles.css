@@ -424,9 +424,13 @@ Main Page- Body Of The page
 Main Page- Body Of The page
 -------------------------------------------------------------------*/
 
-h3 {
+h3, h4 {
     font-weight: bold;
     font-size: 25px;
+}
+
+h4 {
+    color: white;
 }
 
 h2 {
@@ -597,9 +601,6 @@ Explore cards
     display: flex;
   }
   
-   h4 {
-    color: #664229;
-  }
   
   .ExploreCard {
     margin: 2px 16px;
@@ -1099,7 +1100,7 @@ Horizontal cards- For Teachers and their Classes
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #906E4E;
+    background-color: #8F6740;
     color: white;
     font-size: 30px;
     padding-bottom: 40px;
