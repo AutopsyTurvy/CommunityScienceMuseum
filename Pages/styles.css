@@ -375,6 +375,12 @@ Main Page- Body Of The page
     .image1, .image2, .image3 {
         background-attachment: scroll;
     }
+
+    .MiniButtonContainer {
+       
+        width: 30%;
+      
+    }
 }
 
 
@@ -523,6 +529,10 @@ h2 {
         .VisitFlexContainer {
             flex-direction: column; 
             text-align: center; 
+        }
+
+        .WhenAreWeOpen {
+            padding-left: 0;
         }
     
         .PlanYourVisit, .WhenAreWeOpen {
