@@ -718,6 +718,10 @@ Footers-- footer 2
     .MediaIcon {
         margin: 0px 6px 0px 6px;
     } 
+
+    .ConnectWithUs {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
