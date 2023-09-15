@@ -440,6 +440,7 @@ h2 {
     list-style: none;   
     row-gap: 30px;  
     padding: 20px;
+    color: white;
 }
 
 .VisitFlexContainer {
@@ -454,13 +455,14 @@ h2 {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    color: white;
+   
 }
 
 .PlanYourVisit {
     text-align: center;
     width: 50%;
     font-weight: bold;
+    
 }
 
 .WhenAreWeOpen {
