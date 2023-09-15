@@ -29,7 +29,7 @@ Header
 }
 
 .HeaderCenter {
-    background-color: #A56E3A;
+    background-color: #A15F21;
     display: grid;
     grid-template-rows: 3;
     grid-template-columns: 10;
@@ -40,7 +40,7 @@ Header
     margin: 0 auto;
     grid-row: 2/3;
     grid-column: 1/3;
-    color: antiquewhite;
+    color: white;
 }
 
 h1 {
@@ -54,7 +54,7 @@ h1 {
 
 .NavigationBar {
     font-family: 'Inter', sans-serif;
-    color: antiquewhite;
+    color: white;
     font-size: 20px;
     grid-row: 2/3;
     grid-column: 5/10;
@@ -78,7 +78,7 @@ h1 {
 
 .NavigationBar a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
 }
 
 .NavigationBar a:hover{
@@ -114,7 +114,7 @@ h1 {
         text-decoration: none;
         border: 1px solid #E5D3B3;
         background-color: #A56E3A;
-        color: antiquewhite;
+        color: white;
         padding: 8px 15px;
         border-radius: 5px;
        
@@ -122,7 +122,7 @@ h1 {
 
     .Button:hover {
         color:#4B3934; 
-        background-color: antiquewhite;
+        background-color: white;
         font-weight: bold;
         text-decoration:none; 
         cursor:pointer;
@@ -301,7 +301,7 @@ Main Page- Body Of The page
 .MiniHeaderButton {
     padding: 10px 20px;
     background-color: #664229;
-    color: antiquewhite;
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -398,6 +398,8 @@ Main Page- Body Of The page
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
     .TextSection1,
     .ExploreCardTitle {
@@ -452,7 +454,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    color: antiquewhite;
+    color: white;
 }
 
 .PlanYourVisit {
@@ -466,7 +468,7 @@ h2 {
 }
 
 .PlanYourVisit a, .FullOpeningHours {
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
     border: 1px solid #E5D3B3;
     padding: 3px;
@@ -498,7 +500,7 @@ h2 {
 
 
 .WhenAreWeOpen ul{
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
     list-style: none;
     margin-left: 0;
@@ -522,6 +524,10 @@ h2 {
     justify-content: center;
     font-family: 'Inter', sans-serif;
 }
+
+
+
+
 
 
 
@@ -603,6 +609,11 @@ Explore cards
    font-style: none;
    color: #4B3934;
   }
+
+
+
+
+
 
 @media screen and (max-width: 1200px) {
     .ExploreCard {
@@ -702,6 +713,12 @@ Footers-- footer 2
 .MediaIcon {
     margin: 0px 10px 0px 10px;
 }
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -813,7 +830,7 @@ Our Exhibits
 }
 
 .WeLoveParagraph {
-    color: antiquewhite;
+    color: white;
     text-align: center;
     margin: 0 auto;
     width: 80%;
@@ -1005,6 +1022,11 @@ Two column section- Biology and Medicine
 }
 
 
+
+
+
+
+
 @media screen and (max-width: 1200px) {
    .right-half { 
 font-size: 0.7em;
@@ -1072,7 +1094,7 @@ Horizontal cards- For Teachers and their Classes
     flex-direction: column;
     align-items: center;
     background-color: #906E4E;
-    color: antiquewhite;
+    color: white;
     font-size: 30px;
     padding-bottom: 40px;
     text-align: center;
@@ -1145,8 +1167,6 @@ to the initial pages both in colour scheme and layout- there will be minimal sty
 .OurExhibitsCards {
     background-color: #906E4E;
 }
-
-
 
 .HorizontalCardImageNight {
     height: 316px;
