@@ -371,7 +371,11 @@ Main Page- Body Of The page
     font-size: 20%;
 }
 
-
+@media (max-width: 768px) {
+    .image1, .image2, .image3 {
+        background-attachment: scroll;
+    }
+}
 
 
 
