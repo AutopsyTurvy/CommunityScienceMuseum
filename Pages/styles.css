@@ -519,6 +519,21 @@ h2 {
 
 
 
+    @media screen and (max-width: 768px) {
+        .VisitFlexContainer {
+            flex-direction: column; 
+            text-align: center; 
+        }
+    
+        .PlanYourVisit, .WhenAreWeOpen {
+            width: 100%; 
+            max-width: none; 
+            margin: 0 auto;
+        }
+    }
+
+
+
 /* ------------------------------------------------------------------------------------------------
 Explore cards
 ---------------------------------------------------------------------------------------------------*/
@@ -1309,6 +1324,13 @@ Visit
 }
 
 
+@media (max-width: 768px) {
+    .Image-Section-Accessibility {
+        background-attachment: scroll; 
+    }
+}
+
+
 /* For some reason, if i combine these in one tag, the styles do not target/ perform*/
 
 .Cafe-Text h3 {
@@ -1403,6 +1425,12 @@ Visit
     font-family: 'Inter', sans-serif; 
     font-size: 1.2em;
     text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .Image-Section-GiftShop {
+        background-attachment: scroll; /* Remove parallax scrolling */
+    }
 }
 
 
