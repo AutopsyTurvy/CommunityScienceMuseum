@@ -919,6 +919,14 @@ two column section- Evolution
     background-attachment: fixed;
 }
 
+
+@media (max-width: 768px) {
+    
+    .RightHalf {
+        background-attachment: scroll;
+    }
+}
+
 /* ------------------------------------------------------------------------------------------------
 Two column section- Biology and Medicine
 ---------------------------------------------------------------------------------------------------*/
@@ -982,6 +990,10 @@ font-size: 0.7em;
 @media screen and (max-width: 700px) {
     .right-half { 
  font-size: 0.5em;
+    }
+
+    .left-half {
+        background-attachment: scroll;
     }
 
  }
