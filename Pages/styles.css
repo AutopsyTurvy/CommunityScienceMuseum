@@ -1340,8 +1340,11 @@ Visit
     }
 
     .Image-Overlay-Accessibility p,
-     .Image-Overlay-Accessibility h3, 
-     .Image-Overlay-GiftShop p {
+     .Image-Overlay-Accessibility h3 {
+        font-size: 1em;
+    }
+
+    .GiftShopParagraph {
         font-size: 1em;
     }
 }
