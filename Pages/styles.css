@@ -1263,6 +1263,10 @@ Visit
     align-items: stretch;
   }
 
+  .HoursHeader {
+    color: #664229;
+  }
+
   .MapCards {
     align-items: center;
     justify-content: center;
