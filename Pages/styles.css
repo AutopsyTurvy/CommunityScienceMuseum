@@ -700,6 +700,7 @@ Footers-- footer 2
 
 .FooterIcons {
     font-size: 30px;
+    color: white;
     display: flex;
 }
 
@@ -708,6 +709,7 @@ Footers-- footer 2
     align-items: center;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 .MediaIcon {
