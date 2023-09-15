@@ -1450,11 +1450,10 @@ Visit
     text-align: center; 
 }
 
-@media (max-width: 768px) {
-    .Image-Section-GiftShop {
-        background-attachment: scroll;
+@media screen and (max-width: 768px) {
+    .Image-Overlay-GiftShop p.GiftShopParagraph {
+        font-size: 1em; /* Adjust the font size as needed for smaller screens */
     }
-
 }
 
 
