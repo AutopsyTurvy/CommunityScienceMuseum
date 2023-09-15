@@ -1338,6 +1338,12 @@ Visit
     .Image-Section-Accessibility {
         background-attachment: scroll; 
     }
+
+    .Image-Overlay-Accessibility p,
+     .Image-Overlay-Accessibility h3, 
+     .Image-Overlay-GiftShop p {
+        font-size: 1em;
+    }
 }
 
 
@@ -1439,8 +1445,9 @@ Visit
 
 @media (max-width: 768px) {
     .Image-Section-GiftShop {
-        background-attachment: scroll; /* Remove parallax scrolling */
+        background-attachment: scroll;
     }
+
 }
 
 
