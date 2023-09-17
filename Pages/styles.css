@@ -122,7 +122,7 @@ h1 {
 
     .Button:hover {
         color:#4B3934; 
-        background-color: white;
+        background-color: #E5D3B3;
         font-weight: bold;
         text-decoration:none; 
         cursor:pointer;
@@ -272,7 +272,6 @@ Main Page- Body Of The page
 }
 
 
-
 .parallax-image {
     min-height: 600px; 
     background-repeat: no-repeat;
@@ -285,6 +284,7 @@ Main Page- Body Of The page
 
 
 
+/*  Without JavaScript, the parallax effect does not work on mobile phones-- the effect is disabled on smaller screens*/
 
 @media screen and (max-width: 768px) {
 
@@ -326,16 +326,9 @@ Main Page- Body Of The page
 }
 
 
+/*  Text inside the parallax images */
 
 
-
-
-
-
-.TextSection1, .ExploreCardTitle {
-    text-align: center;
-    padding: 2em 4em;
-}
 
 .InnerText {
     position: absolute;
@@ -349,16 +342,23 @@ Main Page- Body Of The page
 }
 
 .MiniHeaderText {
+
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 70%;
-    width: auto;
-    display:inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 12px;
     color: #664229;
     font-size: 0.8em;
     letter-spacing: 0.2em;
-    background-color: #E5D3B3;
-    padding: 0.3em 0.5em;
+    padding: 0.5em 0.6em;
     font-family: 'Inter', sans-serif;
+    background-color: #E5D3B3;
 }
 
 .boarder {
@@ -379,7 +379,6 @@ Main Page- Body Of The page
     .MiniButtonContainer {
        
         width: 40%;
-      
     }
 }
 
@@ -387,7 +386,7 @@ Main Page- Body Of The page
 
 @media screen and (max-width: 1700px) {
     .boarder {
-        font-size: 2em; 
+        font-size: 2.5em; 
         padding: 0.8em;
     }
 
@@ -407,7 +406,7 @@ Main Page- Body Of The page
     }
 
     .InnerText {
-        font-size: 0.7em; 
+        font-size: em; 
         letter-spacing: 0.3em;
        
     }
@@ -421,16 +420,12 @@ Main Page- Body Of The page
 
 
 /* ----------------------------------------------------------------
-Main Page- Body Of The page
+Plan your visit ul, li and icon section
 -------------------------------------------------------------------*/
 
 h3, h4 {
     font-weight: bold;
     font-size: 25px;
-}
-
-h4 {
-    color: white;
 }
 
 h2 {
@@ -533,10 +528,6 @@ h2 {
 
 
 
-
-
-
-
     @media screen and (max-width: 768px) {
         .VisitFlexContainer {
             flex-direction: column; 
@@ -559,6 +550,13 @@ h2 {
 /* ------------------------------------------------------------------------------------------------
 Explore cards
 ---------------------------------------------------------------------------------------------------*/
+
+
+.TextSection1, .ExploreCardTitle {
+    text-align: center;
+    padding: 2em 4em;
+}
+
 
 .ExploreCardTitle {
     text-align: center;
@@ -601,7 +599,6 @@ Explore cards
     display: flex;
   }
   
-  
   .ExploreCard {
     margin: 2px 16px;
     background-color: #E5D3B3;
@@ -609,7 +606,6 @@ Explore cards
   }
 
   .ExploreCard a{
-   font-style: none;
    color: #4B3934;
   }
 
@@ -629,8 +625,6 @@ Explore cards
     }
 
 }
-
-
 
 /* ------------------------------------------------------------------------------------------------
 Explore cards 2- There's so much to see
@@ -691,12 +685,6 @@ Footers-- footer 1
     }
 }
 
-@media screen and (max-width: 768px) {
-
-    .TopFooter {
-        font-size: 12px; 
-    }
-}
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -758,7 +746,7 @@ Footers-- footer 2
 
 
 
-
+/* Donate Button popup */
 
 
 .popup {
@@ -1125,6 +1113,7 @@ Horizontal cards- For Teachers and their Classes
     width: 100%;
     height: contain;
     vertical-align: top;
+    overflow: hidden;
 }
 
 .HorizontalCardParagraph {
@@ -1152,9 +1141,7 @@ Horizontal cards- For Teachers and their Classes
         width: 80%; 
     }
 
-    .HorizontalCardImage {
-        flex: 100%;
-    }
+    
 
     .HorizontalCardParagraph {
         order: 1;
@@ -1176,8 +1163,7 @@ to the initial pages both in colour scheme and layout- there will be minimal sty
 }
 
 .HorizontalCardImageNight {
-    height: 316px;
-    width: 474px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -1264,7 +1250,7 @@ Visit
   }
 
   .HoursHeader {
-    color: #664229;
+    color: #664229
   }
 
   .MapCards {
@@ -1303,7 +1289,7 @@ Visit
 }
 
 
-
+/*  Parallax images- Visit Page */
 
 
 
@@ -1385,7 +1371,7 @@ Visit
 }
 
 
-/* For some reason, if i combine these in one tag, the styles do not target/ perform*/
+/* For some reason, if I combine these in one tag, the styles do not target/ perform. */
 
 .Cafe-Text h3 {
     background-color: #EFEFEF;
@@ -1396,6 +1382,10 @@ Visit
     background-color: #EFEFEF;
     color: #372F2D;
 }
+
+
+
+
 
 
 .Image-Section-Cafe {
@@ -1483,7 +1473,7 @@ Visit
 
 @media screen and (max-width: 768px) {
     .Image-Overlay-GiftShop p.GiftShopParagraph {
-        font-size: 1em; /* Adjust the font size as needed for smaller screens */
+        font-size: 1em;
     }
 }
 
