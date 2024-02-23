@@ -42,10 +42,10 @@ Specific events given, along with images for us to include in our design-- I use
 
 #### Getting Started
 
-Installing
+** Installing **
 
 
-Clone the repo:
+-- Clone the repo:
 
 git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum.git
 
@@ -55,7 +55,7 @@ npm install
 
 
 
-Running
+-- Running
 
 To run the app, run the following commands:
 
@@ -63,17 +63,20 @@ npm run start
 
 
 
-Contributing
-
+-- Contributing
 
 Contributions are welcome, but I would request that the invidicual that does so, clones the code and adds notes so that I can review any changes before they are comitted to the project permanently. Thank you! 
 
 
-Contact
+
+
+-- Contact
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-Email me: 
+
+
+-- Email me: 
 
 autopsyturvycoding@gmail.com
 
