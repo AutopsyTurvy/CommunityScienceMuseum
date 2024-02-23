@@ -46,7 +46,10 @@ Installing
 
 
 Clone the repo:
-git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum
+
+git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum.git
+
+
 Install the dependencies: N/A
 npm install
 
