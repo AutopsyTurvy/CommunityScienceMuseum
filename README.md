@@ -16,7 +16,7 @@
 ## Site purpose:
 
 In its essence the exercise was to test our CSS and HTML skills- the brief itself was a child and young person-friendly, community science museum- 
-To advertise the exhibits and special events that the museum was showing, what facilities were available for visiting schools and to let people know the location of the museum itself.
+To advertise the exhibits and special events that the museum was showing, what facilities were available for visiting schools and to let people know the location of the museum     itself.
 
 
 
