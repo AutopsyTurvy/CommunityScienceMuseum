@@ -4,7 +4,8 @@
 ![Museum Logo](https://coruscating-jelly-1df6d6.netlify.app/Images/MuseumIcon.png)
 
 
-![My Image](Documents/projectscreenshots/sciencemuseum.jpg)
+![My Image](Images/readme.jpeg)
+
 
 
 
