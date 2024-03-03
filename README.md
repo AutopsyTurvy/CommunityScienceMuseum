@@ -1,15 +1,15 @@
 
 
 
+![Museum Logo](https://coruscating-jelly-1df6d6.netlify.app/Images/MuseumIcon.png)
 
-
+![image of site](https://melodious-griffin-3e41f3.netlify.app)
 
 # Community Science Museum, - 
 
-
-    The first exam of our school year- 
-    This was a build of purely HTML and CSS, as we had not yet completed our JavaScript 1 module.
-    The brief was to build a website for a community science museum for children and young adults, to invite them to visit and display the exhibits .
+The first exam of our school year- 
+This was a build of purely HTML and CSS, as we had not yet completed our JavaScript 1 module.
+The brief was to build a website for a community science museum for children and young adults, to invite them to visit and display the exhibits .
 
 
 
@@ -37,6 +37,11 @@ Simply designed parralax scroll effect pages (In the hopes of a more exciting pa
 
 Specific events given, along with images for us to include in our design-- I used similar code to that used for the parralax effects on the home page
 
+(Built with:)
+
+![logos- html and css](https://i.pinimg.com/originals/91/17/48/91174838481320be811fa7da10a51fea.jpg)
+
+
 
 
 
@@ -47,11 +52,13 @@ Specific events given, along with images for us to include in our design-- I use
 
 -- Clone the repo:
 
-git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum.git
+
+    git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum.git
 
 
 Install the dependencies: N/A
-npm install
+
+    npm install
 
 
 
@@ -59,7 +66,15 @@ npm install
 
 To run the app, run the following commands:
 
-npm run start
+    npm run start
+
+
+
+You may also choose to add to/ clone this code in another way than through the command line or terminal, and you may do this by opening it in your chosen code editor, via GitHub desktop, and subsequently, VScode. 
+--
+
+
+    From GitHub Desktop, open repo in a code editor, typically "VScode", then open in live server.
 
 
 
