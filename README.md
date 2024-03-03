@@ -1,13 +1,17 @@
 
+---
 
+<p align="center">
+  <img src="https://coruscating-jelly-1df6d6.netlify.app/Images/MuseumIcon.png" alt="Museum Logo">
+</p>
 
-![Museum Logo](https://coruscating-jelly-1df6d6.netlify.app/Images/MuseumIcon.png)
+---
 
 
 ![My Image](Images/readme.jpeg)
 
 
-
+---
 
 # Community Science Museum, - 
 
@@ -17,9 +21,10 @@ The brief was to build a website for a community science museum for children and
 
 
 Our brief--
-(An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is curious and intelligent. The website should be informative and engaging, encouraging viewers to visit the museum. The website should be responsive and easy to use on various devices.
 
-You have been provided media assets as text and images (see link under Resources). It is for you to decide how these will be used in terms of presentation, hierarchy, and design.)
+    (An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15)        and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents. The site should appeal to youngsters       without pandering; it should take for granted that the audience is curious and intelligent. The website should be informative and engaging, encouraging viewers to visit the       museum. The website should be responsive and easy to use on various devices.
+
+---
 
 
 ## Site purpose:
@@ -28,7 +33,7 @@ In its essence the exercise was to test our CSS and HTML skills- the brief itsel
 To advertise the exhibits and special events that the museum was showing, what facilities were available for visiting schools and to let people know the location of the museum     itself.
 
 
-
+---
 
 ### Description
 
@@ -51,38 +56,34 @@ Specific events given, along with images for us to include in our design-- I use
 
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="50" height="50">
 
-
+---
 
 #### Getting Started
 
 ** Installing **
 
 
--- Clone the repo:
+-- To clone the repo:
 
 
     git clone git@github.com: https://github.com/AutopsyTurvy/CommunityScienceMuseum.git
 
 
-Install the dependencies: N/A
+Install the dependencies, (if running through command line or terminal):
 
     npm install
 
-
-
 -- Running
 
-To run the app, run the following commands:
+To run the app, run the following commands (if running through command line or terminal):
 
     npm run start
 
 
 
 You may also choose to add to/ clone this code in another way than through the command line or terminal, and you may do this by opening it in your chosen code editor, via GitHub desktop, and subsequently, VScode. 
---
 
-
-    From GitHub Desktop, open repo in a code editor, typically "VScode", then open in live server.
+---
 
 
 
@@ -92,14 +93,24 @@ Contributions are welcome, but I would request that the invidicual that does so,
 
 
 
+---
 
--- Contact
-
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
+Contact:
 
 
--- Email me: 
-
+Email me: 
 autopsyturvycoding@gmail.com
 
+<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Discord.svg" width="50" height="50">
+
+
+Find me on Discord:
+(Kitty Alice Case
+kittyalicerayworth)
+
+---
+
+Acknowledgments
+
+
+Thanks to my dear friend Jamie, who explained so much to me. 
