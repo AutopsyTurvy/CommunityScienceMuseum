@@ -12,6 +12,11 @@ This was a build of purely HTML and CSS, as we had not yet completed our JavaScr
 The brief was to build a website for a community science museum for children and young adults, to invite them to visit and display the exhibits .
 
 
+Our brief--
+(An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is curious and intelligent. The website should be informative and engaging, encouraging viewers to visit the museum. The website should be responsive and easy to use on various devices.
+
+You have been provided media assets as text and images (see link under Resources). It is for you to decide how these will be used in terms of presentation, hierarchy, and design.)
+
 
 ## Site purpose:
 
@@ -39,7 +44,7 @@ Specific events given, along with images for us to include in our design-- I use
 
 (Built with:)
 
-![logos- html and css](https://i.pinimg.com/originals/91/17/48/91174838481320be811fa7da10a51fea.jpg)
+![logos- html and css](https://camo.githubusercontent.com/93e4e94382fb2211baf595fd981ec363e1400d1ad208321396344b2eb998b51f/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f68746d6c352e737667) ![logos- html and css](https://camo.githubusercontent.com/10e5da35078001d86532bb75efeecf75aaca2765af099b3a2592a22fd12cb2e0/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f637373332e737667) ![logos- html and css](https://camo.githubusercontent.com/8e946c2804fdccdb848c1109042c5398ea6bf93367d82f83aad430b722f50d9b/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6a6176617363726970742e737667) 
 
 
 
