@@ -3,7 +3,7 @@
 
 ![Museum Logo](https://coruscating-jelly-1df6d6.netlify.app/Images/MuseumIcon.png)
 
-![image of site](https://melodious-griffin-3e41f3.netlify.app)
+
 
 # Community Science Museum, - 
 
